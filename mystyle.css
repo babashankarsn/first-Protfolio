@@ -1,0 +1,124 @@
+body {
+  text-align: center;
+  margin:0;
+  background-color: #FFB5B5;
+
+
+}
+p{
+  font-family: 'Vollkorn', serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: 'Waterfall', cursive;
+  font-size: 5rem;
+  color:#000B49;
+  margin-top:0;
+
+}
+hr{
+  margin:20px;
+  border-top: solid 2px;
+
+}
+.header{
+  background-color: #9B0000;
+  margin-top: 0;
+  padding-top:100px;
+  padding-bottom: 100px;
+
+}
+
+.gif2{
+  position: absolute;
+  left: 0px;
+  top: 0px
+
+}
+.spiderman{
+  width: 300px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-family: 'Noto Sans', sans-serif;
+
+
+}
+.profile{
+  padding: 20px 0;
+}
+.profilePic{
+  width: 200px;
+  border-radius: 100%;
+
+
+}
+
+.skillrow1{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.skillrow2{
+  width: 50%;
+  margin: 100px auto;
+  text-align: right;
+}
+.code-img{
+  width: 20%;
+  float: left;
+  margin-right: 50px;
+
+}
+
+.ballimg{
+  width: 20%;
+  float: right;
+  margin-left: 50px;
+
+}
+
+.connect{
+  width: 50%;
+  margin: auto;
+}
+form{
+  text-align: left;
+}
+input[type=text],input[type=email]{
+  width: 80%;
+  border: 0.5px;
+  border-radius: 4px;
+  margin:10px;
+  height: 30px;
+  display: inline-block;
+}
+input[type=text]:nth child(3){
+  height: 100px;
+}
+label{
+  display: block;
+}
+input[type=submit]{
+  margin: auto;
+  background-color: #FFB5B5;
+  border: 0.7px solid;
+  padding: 5px;
+  border-radius: 4px;
+}
+a{
+  margin: 20px;
+  color: #000B49;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.footer{
+  background-color: #9B0000;
+  padding: 20px;
+}
+a:hover{
+  color: white;
+}
